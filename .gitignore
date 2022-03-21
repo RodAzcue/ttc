@@ -16,3 +16,6 @@ venv.bak/
 
 # PyPI
 .pypirc
+terminalTrueColors.egg-info
+MANIFEST
+dist
