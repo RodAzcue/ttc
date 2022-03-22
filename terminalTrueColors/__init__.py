@@ -1,7 +1,7 @@
 from colorsys import hls_to_rgb
 from pyfiglet import figlet_format
 from sys import stdout
-
+from os import get_terminal_size
 
 class rgb:
 	def __init__(self, r,g,b):
@@ -163,7 +163,7 @@ colors={
 
 def main():
 
-	from os import get_terminal_size
+	
 
 	colorPallete = [
 		colors["red"],
